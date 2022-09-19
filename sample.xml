@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessInvoice>
+   <DataArea>
+      <Invoice type="INVOICE">
+         <Type>INVOICE</Type>
+         <InvoiceHeader>
+            <CustomerParty>
+               <PartyIDs>
+                  <ID schemeName="BillTo" />
+                  <ID schemeName="ShipTo" />
+               </PartyIDs>
+               <Location>
+                  <Address>
+                     <ID>BillTo</ID>
+                     <AddressLine>41 Mall Rd Box 541</AddressLine>
+                     <AddressLine />
+                     <AddressLine />
+                     <PostalCode>01805</PostalCode>
+                     <CityName>Burlington</CityName>
+                     <CountrySubDivisionCode>MA</CountrySubDivisionCode>
+                  </Address>
+                  <Address>
+                     <ID>ShipTo</ID>
+                     <AddressLine>85 Herrick St</AddressLine>
+                     <AddressLine />
+                     <AddressLine />
+                     <PostalCode>01915</PostalCode>
+                     <CityName>Beverly</CityName>
+                     <CountrySubDivisionCode>MA</CountrySubDivisionCode>
+                  </Address>
+               </Location>
+               <Name sequenceName="BillTo">Lahey Shared Services</Name>
+               <Name sequenceName="ShipTo">Peter Cook Northeast Hospital Corporation</Name>
+               <Contact>
+                  <Communication>
+                     <DialNumber />
+                  </Communication>
+                  <DepartmentName />
+               </Contact>
+            </CustomerParty>
+            <SupplierParty>
+               <PartyIDs>
+                  <ID>P000122</ID>
+               </PartyIDs>
+               <OCR>IRIS</OCR>
+               <Name>Medline Industries</Name>
+               <Contact>
+                  <Responsibility />
+                  <Communication>
+                     <ChannelCode>TEL</ChannelCode>
+                     <DialNumber />
+                  </Communication>
+                  <Communication>
+                     <ChannelCode>EMAIL</ChannelCode>
+                     <URI />
+                  </Communication>
+               </Contact>
+               <VendorID>
+                  <ID />
+               </VendorID>
+               <APLocation />
+            </SupplierParty>
+            <RemitToParty>
+               <Location>
+                  <Address>
+                     <ID>RemitTo</ID>
+                     <AddressLine>7267 Schantz Road</AddressLine>
+                     <AddressLine />
+                     <PostalCode>18106</PostalCode>
+                     <CityName>Allentown</CityName>
+                     <CountryCode>USA</CountryCode>
+                     <CountrySubDivisionCode>PA</CountrySubDivisionCode>
+                     <RemitToCode />
+                  </Address>
+               </Location>
+               <Name>Medline Industries</Name>
+            </RemitToParty>
+            <Party role="RouteTo" category="ById">
+               <PartyIDs>
+                  <ID>P067272</ID>
+               </PartyIDs>
+               <Location>
+                  <Name />
+                  <Address>
+                     <PostalCode />
+                     <BuildingNumber />
+                     <StreetName />
+                  </Address>
+               </Location>
+            </Party>
+            <Party role="SiteTo" category="ByLocation">
+               <Location>
+                  <Name>Peter Cook Northeast Hospital Corporation</Name>
+                  <Address>
+                     <PostalCode>01915</PostalCode>
+                     <BuildingNumber>85</BuildingNumber>
+                     <StreetName>Herrick St</StreetName>
+                  </Address>
+               </Location>
+            </Party>
+            <DocumentID>
+               <ID>MEDLINEFREIGHT</ID>
+            </DocumentID>
+            <PurchaseOrderReference>
+               <DocumentID>
+                  <ID>2222020000028</ID>
+               </DocumentID>
+               <DocumentDateTime />
+            </PurchaseOrderReference>
+            <DocumentReference>
+               <Facility>
+                  <IDs>
+                     <ID />
+                  </IDs>
+               </Facility>
+               <BusinessUnit />
+               <Region />
+               <ShipUnitReference>
+                  <Type />
+               </ShipUnitReference>
+            </DocumentReference>
+            <PaymentTerm>
+               <Term>
+                  <ID />
+                  <DueDateTime />
+               </Term>
+               <DiscountTerms />
+            </PaymentTerm>
+            <Type>INVOICE</Type>
+            <DocumentDateTime>2022-06-27</DocumentDateTime>
+            <InvoiceReceivedDate />
+            <TotalAmount>5.00</TotalAmount>
+            <AU />
+            <UserArea />
+            <HierarchyCode />
+            <POCode />
+            <OCRHotFolder>LaheyHealth_Test</OCRHotFolder>
+            <glAccountNumber />
+            <CostCenter />
+            <ControlGroup />
+            <InvoiceCategory />
+            <Tax>
+               <Amount>0.00</Amount>
+            </Tax>
+            <SYS>
+               <Contact>
+                  <Role>Endpoint</Role>
+                  <FirstName />
+                  <LastName />
+                  <Phone />
+                  <Email>cfwest@medline.com</Email>
+               </Contact>
+            </SYS>
+            <Charge>
+               <Amount>5.00</Amount>
+               <Description>Freight</Description>
+               <ReasonCode>FR</ReasonCode>
+            </Charge>
+         </InvoiceHeader>
+         <InvoiceLine>
+            <LineNumber>1</LineNumber>
+            <Item>
+               <SupplierItemID>
+                  <ID />
+               </SupplierItemID>
+               <Description>Default $0 line</Description>
+            </Item>
+            <Quantity unitCode="EA" />
+            <UnitPrice>
+               <Amount />
+            </UnitPrice>
+            <Tax>
+               <Amount />
+            </Tax>
+            <ExtendedAmount />
+            <UserArea />
+            <Discount />
+            <glAccountNumber />
+            <BusinessUnitGL />
+            <Account />
+            <GLOU />
+            <GLBU />
+            <DeptId />
+            <UniqueID>9ddfac9a-37f1-11ed-977d-0a0086460000</UniqueID>
+         </InvoiceLine>
+      </Invoice>
+   </DataArea>
+</ProcessInvoice>
